@@ -1,0 +1,93 @@
+.static-box{
+    position: static;
+}
+.relative-box{ 
+    position: relative; 
+    left: 30px; 
+    top: 20px;
+    border: 3px solid darkblue;
+    width: 100px;
+    text-align: center;
+}
+.w3-container{
+    width: 150px; 
+    height: 100px;
+    position: relative;
+}
+.absolute-box{
+    position: absolute;
+top: 10px;
+left: 15px;
+}
+.fixed-box{
+    vertical-align: middle;
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 150px;
+    height: 25px;
+    background-color: red;
+    color: white;
+}
+.sticky-box{
+    position: sticky;
+    top: 0;
+}
+.background-image{ 
+    width: vw;
+    height: 1200px;
+    background-image: url(F206\ HOUSING\ PROJECT\ PRESENTATION\ FINAL\ RENDER\ INTIREOR.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.background-image-repeat{
+    width: vh;
+    height: 1680px;
+    background-image: url(F207\ HOUSING\ PROJECT\ PRESENTATION\ FINAL\ RENDER\ TERRACE.jpg);
+    background-size: 1150px;
+    background-repeat: repeat;
+}
+.box1{
+    background-color: blue;
+    color: white;
+    z-index: 1;
+position: absolute;}
+.box2{
+    background-color: brown;
+    color: white;
+    z-index: 2;
+    position: absolute}
+.w3-container1{
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+.d1{flex-direction: row;
+}
+.w3-container2{
+    display: flex;
+    width: 100px;
+    height: 100px;
+
+}
+.d2{
+    flex-direction: column;
+}
+.w3-container3{
+    display: flex;
+    width: 100px;
+    height: 100px;
+   
+}
+.d3{
+    justify-content: center;
+}
+.w3-container4{
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+.d4{
+    flex-wrap: wrap;
+}
